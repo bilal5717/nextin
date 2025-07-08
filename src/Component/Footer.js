@@ -8,7 +8,7 @@ import {
   FaInstagram,
   FaWhatsapp
 } from 'react-icons/fa';
-import NextInlogo from '../images/NextInlogo.png';
+import NextInlogo from '../images/logo.png';
 
 const Footer = () => (
   <footer className="bg-black text-gray-400 py-10 px-6 md:px-20">
@@ -17,7 +17,7 @@ const Footer = () => (
       {/* Logo and Description */}
       <div className="flex flex-col items-center md:items-start">
         <Link to="/">
-          <img src={NextInlogo} alt="NextIn Logo" className="h-24 w-24 mb-4" />
+          <img src={NextInlogo} alt="NextIn Logo" className="h-20 w-24 mb-4" />
         </Link>
         <p className="text-sm max-w-xs">
           Innovative tech solutions tailored to your business goals. From strategy to execution — we deliver results.

@@ -66,14 +66,7 @@ const ContactUs = () => {
             className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#016fbe]"
           />
         </div>
-        <div className="col-span-1">
-          <label className="block text-sm font-medium text-gray-700">Subject</label>
-          <input
-            type="text"
-            placeholder="Subject"
-            className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#016fbe]"
-          />
-        </div>
+        
         <div className="col-span-1 md:col-span-2">
           <label className="block text-sm font-medium text-gray-700">Message</label>
           <textarea

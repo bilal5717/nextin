@@ -1,22 +1,27 @@
-// Layout.jsx
+
 import React from 'react';
-import { Outlet } from 'react-router-dom';
-import Footer from './Footer'; // Adjust the path if needed
-import Navbar from './Navbar'; // Optional if you have a common navbar
+import { Outlet, useLocation } from 'react-router-dom';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Layout = () => {
-  return (
-    <div className="min-h-screen flex flex-col justify-between">
-      {/* Optional shared Navbar */}
-      <Navbar />
+  const location = useLocation();
 
-      {/* Page content injected here */}
+  // Check if current route starts with "/admin"
+  const isAdminRoute = location.pathname.startsWith('/admin');
+
+  return (
+    <div className="min-h-screen flex flex-col">
+      {/* Show Navbar only if not on admin route */}
+      {!isAdminRoute && <Navbar />}
+
+      {/* Main content goes here */}
       <main className="flex-grow">
         <Outlet />
       </main>
 
-      {/* Shared Footer */}
-      <Footer />
+      {/* Show Footer only if not on admin route */}
+      {!isAdminRoute && <Footer />}
     </div>
   );
 };

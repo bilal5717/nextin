@@ -81,7 +81,7 @@ const Navbar = () => {
           {/* Enroll Now Button (Visible on all devices) */}
           <div className="hidden md:flex">
             <Link
-              to="/pages/EnrollForm"
+              to="/enroll"
               className="bg-[#016fbe] hover:bg-blue-700 px-4 py-2 rounded-lg text-sm lg:text-base font-semibold"
             >
               Enroll Now

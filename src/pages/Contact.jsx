@@ -94,17 +94,9 @@ const ContactUs = () => {
     </div>
 
     {/* Google Map */}
-    <div className="rounded-lg overflow-hidden shadow-md">
-      <iframe
-        title="NextIn Office Location"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13613.516340079633!2d74.272343!3d31.520369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f045dffb55%3A0xafe91f7e83d7fc0!2sLahore!5e0!3m2!1sen!2s!4v1719497491234"
-        width="100%"
-        height="100%"
-        style={{ border: 0, minHeight: '500px' }}
-        allowFullScreen=""
-        loading="lazy"
-      ></iframe>
-    </div>
+    {<div className="rounded-lg overflow-hidden shadow-md">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6807.717467012947!2d74.4052879!3d31.4455558!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919090013101d1b%3A0xfcb5723a0aea5a6!2sNextin%20Tech%20Hun!5e0!3m2!1sen!2s!4v1752171853448!5m2!1sen!2s" width="600" height="450" title='map' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>}
 
   </div>
 </section>

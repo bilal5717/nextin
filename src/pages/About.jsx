@@ -1,4 +1,3 @@
-import Teacher from '../images/Teacher.jpeg';
 import Home2 from '../images/Home2.webp';
 import CountdownTimer from '../Component/CountDownTimer';
 import AboutBanner from '../Component/banner/AboutBanner';

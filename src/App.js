@@ -19,6 +19,7 @@ import ServicesManagement from './Admin/pages/Services';
 import ServiceForm from './Admin/pages/Add/AddService';
 import AdminEnrollments from './Admin/pages/Enrollments';
 import AdminPayments from './Admin/pages/payments';
+import AdminMessages from './Admin/pages/Messages';
 import './App.css';
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
 
 <Route path="enrollments" element={<AdminEnrollments />} />
 <Route path="payments" element={<AdminPayments />} />
+<Route path="messages" element={<AdminMessages />} />
         </Route>
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>

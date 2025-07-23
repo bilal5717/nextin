@@ -77,11 +77,11 @@ const AdminLayout = () => {
             Payments
           </Link>
           <Link 
-            to="/admin/analytics" 
+            to="/admin/messages" 
             className="flex items-center px-3 py-2 rounded hover:bg-gray-700 transition-colors"
           >
             <FaChartLine className="mr-3" />
-            Analytics
+            Messages
           </Link>
           <Link 
             to="/admin/settings" 

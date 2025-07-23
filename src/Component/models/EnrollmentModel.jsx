@@ -16,7 +16,7 @@ import GraphicDesign from '../../images/graphic.jpg';
 import SEO from '../../images/seo1.jpeg';
 import WebHosting from '../../images/WebHosting.jpg';
 import DigitalMarketing from '../../images/digitalMarketing.webp';
-import MobileApp from '../../images/mobileApp.jpg';
+import MobileApp from '../../images/MobileApp.jpg';
 import FullStackImg from '../../images/courseimg3new.jpeg';
 // Courses data with all images properly assigned
 const coursesData = {

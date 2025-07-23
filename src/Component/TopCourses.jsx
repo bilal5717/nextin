@@ -53,7 +53,7 @@ const TopCourses = ({ courses }) => {
         
         <div className="mt-12 text-center">
           <Link 
-            to="/courses" 
+            to="/course" 
             className="inline-flex items-center px-6 py-3 border border-[#016fbe] text-[#016fbe] font-semibold hover:bg-[#016fbe] hover:text-white transition-colors duration-300"
           >
             View All Courses <FiArrowRight className="ml-2" />

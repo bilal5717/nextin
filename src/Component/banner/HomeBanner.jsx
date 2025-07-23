@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 const HeroSection = ({ heroImage }) => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 md:px-20 py-8 md:py-10">
@@ -12,12 +13,12 @@ const HeroSection = ({ heroImage }) => {
           We specialize in delivering customized digital solutions through a versatile and hybrid working model — from idea to launch.
         </p>
         <div className="pt-2">
-          <a
-            href="/services"
-            className="inline-block bg-[#016fbe] text-white px-6 py-3 rounded-full shadow hover:bg-blue-700 transition duration-300 ease-in-out"
-          >
-            Explore Our Services
-          </a>
+          <Link
+  to="/services"
+  className="inline-block bg-[#016fbe] text-white px-6 py-3 rounded-full shadow hover:bg-blue-700 transition duration-300 ease-in-out"
+>
+  Explore Our Services
+</Link>
         </div>
       </div>
       <div className="md:w-1/2 mt-10 md:mt-0">
